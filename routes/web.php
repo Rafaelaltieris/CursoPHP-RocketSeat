@@ -7,4 +7,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/', WelcomeController::class);
+// Route::get('/', WelcomeController::class);
